@@ -5,3 +5,15 @@ created: 24 September 2026
 last modified: 24 September 2026
 description: CSS layout styles for lab05.html
 */
+
+/* Step 2 - Using multiple CSS files */
+
+/* Override the Lab 04 hover behaviour */
+aside:hover {
+    display: block;
+}
+
+/* Display navigation menu items on one line */
+.menu {
+    display: inline-block;
+}
